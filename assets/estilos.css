@@ -1,0 +1,29 @@
+
+
+* {
+    Margin:0;
+    padding:0;
+    }
+
+body{font-family:rockwell;
+}    
+.head {         background-color: rgb(7, 84, 104);
+                border: solid 3px rgb(19, 5, 100);
+                padding: 15px;
+                display: inline-block;
+            
+                width: 1330px;
+                height: 110px;
+            
+                overflow: hidden;
+        }
+h1{color: rgb(215, 215, 241);
+        font-size: 400%;
+        text-align: center;
+     
+     }
+h2{color: rgb(215, 215, 241);
+        font-size: 100%;
+        text-align: center;
+
+}
