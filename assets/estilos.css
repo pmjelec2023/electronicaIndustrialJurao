@@ -5,55 +5,50 @@
     padding:0;
     }
 
-body{font-family:rockwell;
-}    
-.head {         margin-bottom: 0px;
+body        {   font-family:rockwell;
+            }    
+.head       {   margin-bottom: 0px;
                 background-color: rgb(7, 84, 104);
-                border: solid 3px rgb(19, 5, 100);
+                border: solid 3px rgb(7, 84, 104);
                 padding: 15px;
                 display: inline-block;
-            
                 width: 1330px;
                 height: 80px;
-            
+                
                 overflow: hidden; /* esto no sería necesario en este bloque*/
-        }
-h1{color: rgb(215, 215, 241);
-        font-size: 300%;
-        text-align: center;
-     
-     }
-h2{color: rgb(215, 215, 241);
-        font-size: 100%;
-        text-align: center;
+            }
 
-}
-ul {
-    margin-top: 0px;
-    height: 30px;
-    padding-top: 15px;
-    list-style-type:none;
-    overflow: hidden;
-    background-color: #333;
-   
-    
-    }
-    li {
-    float:left;
-    margin-left: 70px;
-    width: 200px; 
-    
-    }
-    li a {
-        color: white;
-        display: inline-block;
-        text-decoration: none;
-         }
-    .activo {
-    background-color: white;
-     color: black;
-     
-    }
+h1          {   color: rgb(215, 215, 241);
+                font-size: 300%;
+                text-align: center;
+            }
+
+h2          {   color: rgb(215, 215, 241);
+                font-size: 100%;
+                text-align: center;
+            }
+
+ul          {   margin-top: -4px;
+                height: 30px;
+                padding-top: 15px;
+                list-style-type:none;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+li          {   float:left;
+                margin-left: 70px;
+                width: 200px; 
+            }
+
+li a        {   color: white;
+                display: inline-block;
+                text-decoration: none;
+            }
+
+.activo     {   background-color: white;
+                color: black;
+            }
 
 .construct{
     margin-top: 50px;
