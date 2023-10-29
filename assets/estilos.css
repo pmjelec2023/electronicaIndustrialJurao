@@ -6,6 +6,7 @@
     }
 
 body        {   font-family:rockwell;
+                background-image: url("https://media.istockphoto.com/id/481701668/vector/circuit-board-background-abstract-computers-technology.jpg?s=612x612&w=0&k=20&c=3hnHfGX8mKUPo32HEAwhGFqctervyJq85-kpopqIVUI=");
             }    
 .head       {   margin-bottom: 0px;
                 background-color: rgb(7, 84, 104);
@@ -28,20 +29,32 @@ h2          {   color: rgb(215, 215, 241);
                 text-align: center;
             }
 
-ul          {   margin-top: -4px;
-                height: 30px;
-                padding-top: 15px;
+ul          {   margin-top: -5px;
+                height: 50px;
+                padding-top: 5px;
+
+                display: flex;
+                flex-direction:row;
+                justify-content:space-around;
+
                 list-style-type:none;
                 overflow: hidden;
                 background-color: #333;
             }
 
-li          {   float:left;
-                margin-left: 70px;
-                width: 200px; 
+li          {   /*float:left;*/
+                /*margin-left: 60px;*/
+                margin-top: 5px;
+                width: 100px; 
+                height:30px;
+                border: solid 3px grey; 
+                border-radius: 5px;
+                text-align: center;
             }
 
-li a        {   color: white;
+li a        {   margin-top: 2px;
+                padding-top: 5px;
+                color: white;
                 display: inline-block;
                 text-decoration: none;
             }
@@ -63,4 +76,10 @@ li a        {   color: white;
     font-size: 200%;
     background-image: url(https://png.pngtree.com/element_our/20190601/ourlarge/pngtree-cartoon-worker-looking-at-engineering-drawing-png-material-at-construction-site-image_1340594.jpg);
     background-size: cover;
-}
+    
+    border: outset 10px cyan;
+    border-radius: 50px;
+        }
+p   {
+        color: yellow
+    }
